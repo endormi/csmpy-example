@@ -12,4 +12,4 @@ Run:
 python example.py
 ```
 
-As you can see, it's straightforward to use, even when adding an unsupported values like font.
+As you can see, it's straightforward to use, even when adding unsupported values like `font`.

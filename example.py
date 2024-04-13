@@ -12,7 +12,7 @@ import pyfiglet
 
 # Define values (required)
 default_values = {
-    # These need to matches with the values inside YAML file
+    # These need to match with the values inside YAML file
     'logo_color': 'red',
     'logo_font': 'slant',
     'text': 'white',
@@ -28,7 +28,7 @@ all_values = ColorSchemeManager.load_colors(default_values, custom_colors)
 logo_color = all_values['logo_color']
 logo_font = all_values['logo_font']
 
-# Otherwise all of the texts after stay red.
+# Otherwise all of the texts stay red
 back_to_original = all_colors['text']
 
 styled_text=pyfiglet.figlet_format('Example',font= logo_font)
